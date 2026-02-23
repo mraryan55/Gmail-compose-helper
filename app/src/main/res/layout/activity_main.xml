@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_gmail"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Email input field -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold|italic" />
+
+    <!-- Subject input field -->
+    <EditText
+        android:id="@+id/subjectInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:inputType="text"
+        android:textStyle="bold|italic" />
+
+    <!-- Message input field -->
+
+    <!-- Send Email button -->
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Message"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/sendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send Email" />
+
+</LinearLayout>
